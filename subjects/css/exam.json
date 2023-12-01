@@ -1,0 +1,65 @@
+{
+    "exam": [
+       
+         {
+            "id": 1,
+            "question": "How do you select an element with the id 'my-element' in CSS?",
+            "options": [".my-element", " #my-element", "element.my-element"],
+            "answer": ""
+         },
+         {
+            "id": 2,
+            "question": "Which property is used to change the font size in CSS?",
+            "options": ["font-size", " text-size", "font-style"],
+            "answer": ""
+         },
+         {
+            "id": 3,
+            "question": "How do you center an element horizontally in CSS?",
+            "options": ["position: center;", " margin: auto", "align: center"],
+            "answer": ""
+         },
+         {
+            "id": 4,
+            "question": "What does CSS stand for?",
+            "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets"],
+            "answer": ""
+         },
+         {
+            "id": 5,
+            "question": "Which CSS property is used to add a background color to an element?",
+            "options": ["color", " background-color", "bgcolor"],
+            "answer": ""
+         },
+         {
+            "id": 6,
+            "question": "How do you apply a border to an element in CSS?",
+            "options": ["border: solid;", "border-width: 1px;", "All of the above"],
+            "answer": ""
+         },
+         {
+            "id": 7,
+            "question": "How do you select all the &lt; p &gt; elements within a  &lt; div &gt; element in CSS?",
+            "options": ["div p", "p > div", "div + p"],
+            "answer": ""
+         },
+         {
+            "id": 8,
+            "question": "How do you change the text color of an element in CSS?",
+            "options": ["text-color: red;", "color: red;", "font-color: red;"],
+            "answer": ""
+         },
+         {
+            "id": 9,
+            "question": "How do you add padding to an element in CSS?",
+            "options": ["margin: 10px;", "padding: 10px;", "space: 10px;"],
+            "answer": ""
+         },
+         {
+            "id": 10,
+            "question": "How do you select the last child of an element in CSS?",
+            "options": [":last", ":last-child", ":last-of-type"],
+            "answer": ""
+         }
+    ]  
+}

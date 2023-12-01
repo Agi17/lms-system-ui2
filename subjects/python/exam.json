@@ -1,0 +1,67 @@
+{
+    "exam": [
+      
+         {
+            "id": 1,
+            "question": "Which statement is used to exit a loop prematurely in Python?",
+            "options": ["continue", "break", " return"],
+            "answer": ""
+         },
+         {
+            "id": 2,
+            "question": "Which data type is used to store a sequence of characters in Python?",
+            "options": ["my_variable", " _private_variable", " 1_variable"],
+            "answer": ""
+         },
+    
+        {
+           "id": 3,
+           "question": "How do you comment a single line in Python?",
+           "options": ["/* This is a comment */", "// This is a comment", "# This is a comment"],
+           "answer": ""
+        },
+        {
+         "id": 4,
+         "question": "Which of the following is a built-in Python function for getting the length of a list or a string?",
+         "options": ["count()", "size()", "len()"],
+         "answer": ""
+      },
+      {
+         "id": 5,
+         "question": "Which of the following is a correct way to write a Python function?",
+         "options": ["def myFunction()", "def myFunction:", "def myFunction():"],
+         "answer": ""
+      },
+      {
+         "id": 6,
+         "question": "Which Python library is commonly used for data manipulation and analysis?",
+         "options": [" Pandas", " NumPy", "Requests"],
+         "answer": ""
+      },
+      {
+         "id": 7,
+         "question": "Which data type is used to store a sequence of characters in Python?",
+         "options": ["int", "float", "str"],
+         "answer": ""
+      },
+      {
+         "id": 8,
+         "question": "Which method is used to remove whitespace from the beginning and end of a string in Python?",
+         "options": ["trim()", "strip()", "remove()"],
+         "answer": ""
+      },
+      {
+         "id": 9,
+         "question": " Which keyword is used to define a function in Python?",
+         "options": ["method", "define", " def"],
+         "answer": ""
+      },
+      {
+         "id": 10,
+         "question": "Which data type is used to store a sequence of characters in Python?",
+         "options": ["int", "float", "str"],
+         "answer": ""
+      }
+
+    ]  
+}

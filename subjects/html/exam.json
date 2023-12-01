@@ -1,0 +1,29 @@
+{
+    "exam": [
+         {
+            "id": 1,
+            "question": "Which attribute is used to specify the URL of an external stylesheet in HTML?",
+            "options": ["href", "src", "link"],
+            "answer": ""
+         },
+         {
+            "id": 2,
+            "question": "Which tag is used to define the main content of an HTML document?",
+            "options": ["href", "src", "link"],
+            "answer": ""
+         },
+         {
+            "id": 3,
+            "question": "Which tag is used to define a list item in HTML?",
+            "options": [" &lt; ul &gt;", "src", "link"],
+            "answer": ""
+         },  
+         {
+            "id": 4,
+            "question": "Which tag is used to define the main content of an HTML document?",
+            "options": ["href", "&lt; li &gt;", "&lt; ol &gt;"],
+            "answer": ""
+         }
+         
+    ]  
+}

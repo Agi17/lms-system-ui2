@@ -1,0 +1,23 @@
+{
+    "exam": [
+       
+         {
+            "id": 17,
+            "question": "What is the correct way to start a PHP code block?",
+            "options": ["&lt; ?php ", "&lt; php?", "&lt; ?"],
+            "answer": ""
+         },
+         {
+            "id": 1,
+            "question": "Which PHP function is used to get the length of a string?",
+            "options": ["length()", "size()t", "strlen()"],
+            "answer": ""
+         },
+         {
+            "id": 1,
+            "question": "Which PHP function is used to redirect the user to a different page?",
+            "options": ["header()", "redirect()", "navigate()"],
+            "answer": ""
+         }
+    ]  
+}

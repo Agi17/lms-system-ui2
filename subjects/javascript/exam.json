@@ -1,0 +1,22 @@
+{
+    "exam": [
+          {
+            "id": 14,
+            "question": "Which JavaScript method is used to remove the last element from an array?",
+            "options": ["pop()", "shift()", "slice()"],
+            "answer": ""
+         },
+         {
+            "id": 15,
+            "question": "Which JavaScript method is used to convert a string to uppercase?",
+            "options": ["toUpperCase()", "toLowerCase()", "trim()"],
+            "answer": ""
+         },
+         {
+            "id": 16,
+            "question": "What will be the output of the following code? <br> <code> var x = 10; <br> var y = '5'; <br> var result = x + y; <br> console.log(result);</code>",
+            "options": ["15", "'15'", "105"],
+            "answer": ""
+         }
+    ]  
+}

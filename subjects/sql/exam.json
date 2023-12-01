@@ -1,0 +1,73 @@
+{
+    "exam": [
+        
+        {
+            "id": 1,
+            "question": " Which keyword is used to retrieve data from a database table in SQL?",
+            "options": ["FETCH", "SELECT", " GET"],
+            "answer": ""
+         },
+         {
+            "id": 2,
+            "question": "Which clause is used to filter records based on a condition in SQL?",
+            "options": ["FILTER", "WHERE", "CONDITION"],
+            "answer": ""
+         },
+         {
+            "id": 3,
+            "question": "What is the purpose of the JOIN keyword in SQL?",
+            "options": ["To insert new records into a table", "To update existing records in a table", "To delete records from a table"],
+            "answer": ""
+         
+         },
+         {
+            "id": 4,
+            "question": "Which SQL statement is used to insert data into a database table?",
+            "options": ["INSERT INTO", "ADD DATA", "UPDATE"],
+            "answer": ""
+         
+         },
+         {
+            "id": 5,
+            "question": "How do you filter data in a SQL query using a specific condition?",
+            "options": ["WHERE", "FILTER", "HAVING"],
+            "answer": ""
+         
+         },
+         {
+            "id": 6,
+            "question": "What is the SQL function used to count the number of records in a table?",
+            "options": ["COUNT", "SUM", "AVG"],
+            "answer": ""
+         
+         },
+         {
+            "id": 7,
+            "question": "How do you specify the maximum number of rows to return in a SQL query?",
+            "options": ["MODIFY", "CHANGE", "LIMIT"],
+            "answer": ""
+         
+         },
+         {
+            "id": 8,
+            "question": "How do you join two or more tables together in a SQL query?",
+            "options": ["UNION", "JOIN", "COMBINE"],
+            "answer": ""
+         
+         },
+         {
+            "id": 9,
+            "question": "What is the SQL keyword used to remove data from a database table?",
+            "options": ["ERASE", "DELETE", "REMOVE"],
+            "answer": ""
+         
+         },
+         {
+            "id": 10,
+            "question": "How do you sort the result set of a SQL query in ascending order?",
+            "options": ["ORDER BY ASC", "SORT ASC", "SORT BY ASCENDING"],
+            "answer": ""
+         
+         }
+    ]  
+}

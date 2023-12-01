@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-y: hidden;
+}
+
+.header {
+  background-color: #0C1E36;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+  height: 84vh;
+}
+
+.main-content {
+  flex: 1;
+  height: 84vh;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  margin-bottom: 10px;
+}
+
+.menu-item a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+  background-color: #ddd;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course-card {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.course-card h3 {
+  margin: 0;
+}
+
+.course-card p {
+  margin: 0;
+}
+
+.logout-button {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  height: 32px;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 0 10px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #0C1E36;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #063362;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 6px;
+  margin-right: 10px; /* Add margin-right */
+}
+
+.search-bar button[type="button"] {
+  padding: 6px;
+  background-color: #0C1E36;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.tutorial-title {
+  margin-bottom: 20px;
+}
+.tutorial-header {
+  margin-bottom: 10px;
+}
+
+.tutorial-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.tutorial-container iframe{
+  margin: 30px 0;
+}
+
+.profile-button {
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.drop-down {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #4545;
+  z-index: 1;
+  right: 20px;
+}
+.drop-down a {
+  color: #000;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+/* 
+.drop-down:hover {
+  display: block !important;
+}
+.profile-button:hover .drop-down {
+  display: block !important;
+} */

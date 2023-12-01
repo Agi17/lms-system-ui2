@@ -1,0 +1,67 @@
+body{
+	background-image: url("./assets/bg.jpg") no-repeat;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flash_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards_container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	margin-top: 1.3rem;
+}
+
+.cards, .card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.card{
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+	position: relative;
+	transition: all 1s linear;
+	transform-style: preserve-3d;
+}
+
+.front, .back{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 0.9rem;
+}
+
+.front{
+	background-color: #096e74;
+	backface-visibility: hidden;
+	z-index: 2;
+}
+
+.back{
+	background-color: #011f18;
+	z-index: 1;
+	transform: rotateY(180deg);
+}
+
+.cards:hover .card{
+	transform: rotateY(180deg);
+}
